@@ -5,9 +5,13 @@ $active_record = TRUE;
 
 if(ENVIRONMENT == 'production')
 {
-	$db['default']['hostname'] = 'serverportfolio';
-	$db['default']['username'] = 'server_admin@serverportfolio';
-	$db['default']['password'] = 'postit@123';
+	// $db['default']['hostname'] = 'serverportfolio';
+	// $db['default']['username'] = 'server_admin@serverportfolio';
+	// $db['default']['password'] = 'postit@123';
+	// $db['default']['database'] = 'dashboard';
+	$db['default']['hostname'] = 'localhost';
+	$db['default']['username'] = 'azure';
+	$db['default']['password'] = 'password';
 	$db['default']['database'] = 'dashboard';
 
 else
