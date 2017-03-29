@@ -14,7 +14,7 @@ else
 {
 	$db['default']['hostname'] = 'localhost';
 	$db['default']['username'] = 'azure';
-	$db['default']['password'] = '6#vWHD_$';
+	$db['default']['password'] = 'password';
 	$db['default']['database'] = 'dashboard';
 }
 	
