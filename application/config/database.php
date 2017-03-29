@@ -5,17 +5,19 @@ $active_record = TRUE;
 
 if(ENVIRONMENT == 'production')
 {
-	$db['default']['hostname'] = 'localhost';
-	$db['default']['username'] = 'root';
-	$db['default']['password'] = 'root';
+	$db['default']['hostname'] = 'serverportfolio';
+	$db['default']['username'] = 'server_admin@serverportfolio';
+	$db['default']['password'] = 'postit@123';
 	$db['default']['database'] = 'dashboard';
-}
+
 else
 {
 	$db['default']['hostname'] = 'localhost';
 	$db['default']['username'] = 'root';
 	$db['default']['password'] = 'root';
 	$db['default']['database'] = 'dashboard';
+}
+	
 }
 
 $db['default']['dbdriver'] = 'mysql';
