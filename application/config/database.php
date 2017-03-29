@@ -13,8 +13,8 @@ if(ENVIRONMENT == 'production')
 else
 {
 	$db['default']['hostname'] = 'localhost';
-	$db['default']['username'] = 'root';
-	$db['default']['password'] = 'root';
+	$db['default']['username'] = 'azure';
+	$db['default']['password'] = '6#vWHD_$';
 	$db['default']['database'] = 'dashboard';
 }
 	
