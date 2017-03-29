@@ -225,12 +225,16 @@ textarea.form-control {
 .success {
 	color: green;
 }
-.info{
+.info {
 	display: inline-block;
 	width: 120px;
 	font-weight: bold;
+	
 }
 
+.font-color{
+	color: white;
+}
 .alert{
 	color: red;
 	font-weight:bold;

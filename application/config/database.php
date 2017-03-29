@@ -18,15 +18,15 @@ if(ENVIRONMENT == 'production')
 
 else
 	{
-		// $db['default']['hostname'] = 'serverportfolio';
-		// $db['default']['username'] = 'server_admin@serverportfolio';
-		// $db['default']['password'] = 'postit@123';
-		// $db['default']['database'] = 'dashboard';
+		$db['default']['hostname'] = 'localhost';
+		$db['default']['username'] = 'root';
+		$db['default']['password'] = 'root';
+		$db['default']['database'] = 'dashboard';
 		
-		$db['default']['hostname'] = '127.0.0.1:51381';
-		$db['default']['username'] = 'azure';
-		$db['default']['password'] = '6#vWHD_$';
-		$db['default']['database'] = 'localdb';
+		// $db['default']['hostname'] = '127.0.0.1:51381';
+		// $db['default']['username'] = 'azure';
+		// $db['default']['password'] = '6#vWHD_$';
+		// $db['default']['database'] = 'localdb';
    }
 	
 }

@@ -12,9 +12,9 @@
 		<div class="row">
 			<div class="col-md-12">
 				<h3 id="user_name"><?=$first_name?> <?=$last_name?></h3>
-				<p><span class="info">User ID: </span><?=$id?></p>
-				<p><span class="info">Email </span><?=$email?></p>
-				<p><span class="info">Joined on: </span><?=$created_at?></p>				
+				<p class="font-color"><span class="info" >User ID : </span><?=$id?></p>
+				<p class="font-color"><span class="info">Email : </span><?=$email?></p>
+				<p class="font-color"><span class="info">Joined on : </span><?=$created_at?></p>				
 				
 				
 			</div> <!-- end of column -->
