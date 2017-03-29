@@ -1,31 +1,33 @@
 <?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed');
-
+{
 $active_group = 'default';
 $active_record = TRUE;
 
 if(ENVIRONMENT == 'production')
-{
-	// $db['default']['hostname'] = 'serverportfolio';
-	// $db['default']['username'] = 'server_admin@serverportfolio';
-	// $db['default']['password'] = 'postit@123';
-	// $db['default']['database'] = 'dashboard';
-	$db['default']['hostname'] = '127.0.0.1';
-	$db['default']['username'] = 'azure';
-	$db['default']['password'] = 'password';
-	$db['default']['database'] = 'localdb';
+	
+	{
+		// $db['default']['hostname'] = 'serverportfolio';
+		// $db['default']['username'] = 'server_admin@serverportfolio';
+		// $db['default']['password'] = 'postit@123';
+		// $db['default']['database'] = 'dashboard';
+		$db['default']['hostname'] = '127.0.0.1:51381';
+		$db['default']['username'] = 'azure';
+		$db['default']['password'] = 'password';
+		$db['default']['database'] = 'localdb';
+	}
 
 else
-{
-	// $db['default']['hostname'] = 'serverportfolio';
-	// $db['default']['username'] = 'server_admin@serverportfolio';
-	// $db['default']['password'] = 'postit@123';
-	// $db['default']['database'] = 'dashboard';
-	
-	$db['default']['hostname'] = '127.0.0.1';
-	$db['default']['username'] = 'azure';
-	$db['default']['password'] = 'password';
-	$db['default']['database'] = 'localdb';
-}
+	{
+		// $db['default']['hostname'] = 'serverportfolio';
+		// $db['default']['username'] = 'server_admin@serverportfolio';
+		// $db['default']['password'] = 'postit@123';
+		// $db['default']['database'] = 'dashboard';
+		
+		$db['default']['hostname'] = '127.0.0.1:51381';
+		$db['default']['username'] = 'azure';
+		$db['default']['password'] = 'password';
+		$db['default']['database'] = 'localdb';
+   }
 	
 }
 
